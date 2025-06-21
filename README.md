@@ -1,23 +1,28 @@
-# Weather App
+# ☀️ Weather App
 
 Ứng dụng dự báo thời tiết đơn giản sử dụng Flutter, lấy dữ liệu thời tiết theo vị trí hiện tại của người dùng.
 
-## Tính năng
+## 📦 Tính năng
 
 - Hiển thị thời tiết hiện tại theo vị trí GPS
 - Xem thông tin: nhiệt độ, độ ẩm, gió, tầm nhìn
 - Dự báo thời tiết các ngày tiếp theo (demo)
 - Giao diện đẹp, dễ sử dụng
 
-## Cài đặt
+## 🖼️ Ảnh minh họa
+<div align="center">
+  <img src="assets/images/MainScreen.png" alt="ảnh demo sản phẩm" width="400" >
+</div>
 
-### Yêu cầu
+## ⚙️ Cài đặt
+
+### 🧰 Yêu cầu
 
 - [Flutter](https://flutter.dev/docs/get-started/install) (>=3.x)
 - Android Studio hoặc VS Code
 - Thiết bị/emulator Android hoặc iOS
 
-### Cách chạy
+### 🚀 Cách chạy
 
 1. **Clone dự án:**
    ```bash
@@ -35,7 +40,7 @@
    flutter run
    ```
 
-## Cấu trúc thư mục
+## 📁 Cấu trúc thư mục
 
 ```
 lib/
@@ -49,15 +54,15 @@ lib/
 - `services/`: Xử lý API, lấy vị trí, ...
 - `widgets/`: Các widget giao diện (WeatherDisplay, WeatherScreen, ...)
 
-## Ghi chú
+## 📝 Ghi chú
 
 - Ứng dụng sử dụng [OpenWeatherMap API](https://openweathermap.org/api). Bạn cần đăng ký và thêm API key vào file cấu hình (nếu có).
 - Nếu gặp lỗi về ADB hoặc emulator, hãy kiểm tra lại thiết bị hoặc khởi động lại ADB.
 
-## Đóng góp
+## 🤝 Đóng góp
 
 Mọi đóng góp đều được hoan nghênh! Hãy tạo pull request hoặc issue nếu bạn muốn cải thiện dự án.
 
-## License
+## 📄 License
 
 MIT License
