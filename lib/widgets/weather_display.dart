@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:weather_app/services/weather_service.dart';
 import 'package:weather_app/services/location_service.dart';
 import 'package:weather_app/models/weather_model.dart';
+import 'package:intl/intl.dart';
 
 class WeatherDisplay extends StatefulWidget {
   const WeatherDisplay({super.key});
@@ -74,14 +75,16 @@ class WeatherScreen extends StatelessWidget {
   final WeatherModel weatherModel;
   DateTime timeNow = DateTime.now();
 
-  // Sử dụng DateFormat để định dạng ngày tháng
-  // Ví dụ: "04/06/2025"
-  String formattedDate = DateFormat('dd/MM/yyyy').format(timeNow);
+  
 
   WeatherScreen({super.key, required this.weatherModel});
 
   @override
   Widget build(BuildContext context) {
+    // Sử dụng DateFormat để định dạng ngày tháng
+  // Ví dụ: "04/06/2025"
+    String formattedDate = DateFormat('dd/MM/yyyy').format(timeNow);
+    
     return Scaffold(
       backgroundColor: Colors.yellow[700],
       body: SafeArea(
