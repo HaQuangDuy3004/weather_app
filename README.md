@@ -1,4 +1,4 @@
-# ☀️ Weather App
+![image](https://github.com/user-attachments/assets/da3ccb37-aa52-4f10-996b-21fadb8864df)# ☀️ Weather App
 
 Ứng dụng dự báo thời tiết đơn giản sử dụng Flutter, lấy dữ liệu thời tiết theo vị trí hiện tại của người dùng.
 
@@ -26,7 +26,7 @@
 
 1. **Clone dự án:**
    ```bash
-   git clone https://github.com/yourusername/weather_app.git
+   git clone https://github.com/HaQuangDuy3004/weather_app.git
    cd weather_app-main
    ```
 
